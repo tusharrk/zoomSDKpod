@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   Pod for zoom-sdk-ios.
                    DESC
-  s.homepage     = "https://github.com/zoom-us-community/zoom-sdk-pods"
-  s.author       = { "author" => "tushar.kalsara.ext@nmims.edu" }
+  s.homepage     = "https://github.com/tusharrk/zoomSDKpod"
+  s.author       = { "author" => "tusharrkdev@gmail.com" }
   s.platform     = :ios, "9.0"
 
-  s.source = { :http => 'https://bitbucket.org/ngasceadmin/zoomsdkpod/downloads/zoom-sdk-ios-5.14.0.7320.zip' }
+  s.source = { :http => 'https://github.com/tusharrk/zoomSDKpod/releases/download/zoom-releases/zoom-sdk-ios-5.14.0.7320.zip' }
   s.requires_arc = true
 
   s.vendored_frameworks =  "**/lib/MobileRTC.xcframework", "**/lib/MobileRTCScreenShare.xcframework"
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.license      =  { :type => 'MIT', :text => <<-LICENSE
  MIT License
 
- Copyright (c) 2021 zvs001
+ Copyright (c) 2021
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal

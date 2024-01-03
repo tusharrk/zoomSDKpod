@@ -8,7 +8,7 @@ Run `bundle install` to install specified version of CocoaPods
 
 #### New sdk required
 
-1) Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-5.14.0.7320.zip`)
+1) Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-5.17.1.12530.zip`)
 2) Edit existing release https://github.com/tusharrk/zoomSDKpod/releases/edit/zoom-releases
 3) Upload the downloaded .zip file
 
